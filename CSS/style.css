@@ -4,35 +4,6 @@ body {
     text-align: center;
 }
 
-.flexContainer {
-    display: flex;
-}
-
-.skillsContainer {
-    display: flex;
-}
-
-.skillsSection {
-    width: 33%; 
-}
-
-.workGrid {
-   display: grid; 
-   grid-template-areas: 
-    "caseStudy1Photo caseStudy1Description"
-    "caseStudy2Photo caseStudy2Description"
-    "caseStudy3Photo caseStudy3Description";
-    grid-template-columns: 1fr 2fr; 
-}
-
-#caseStudy1Photo {
-    grid-area: caseStudy1Photo; 
-}
-
-#caseStudy1Description {
-    grid-area: caseStudy1Description; 
-}
-
 header {
     padding: 40px;
 }
@@ -67,6 +38,11 @@ h3 {
     text-align: center; 
 }
 
+#viewAllProjects:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 .heroImg {
     background-color: #4675AB;
     padding: 100px 15px;
@@ -81,6 +57,27 @@ p {
     margin: 0 auto; 
     padding: 50px;
     text-align: center; 
+}
+
+.flexContainer {
+    display: flex;
+}
+
+.skillsContainer {
+    display: flex;
+}
+
+.skillsSection {
+    width: 33%; 
+}
+
+.workGrid {
+   display: grid; 
+   grid-template-areas: 
+    "caseStudy1Photo caseStudy1Description"
+    "caseStudy2Photo caseStudy2Description"
+    "caseStudy3Photo caseStudy3Description";
+    grid-template-columns: 1fr 2fr; 
 }
 
 button {
